@@ -1,4 +1,4 @@
-React Todo App
+### React Todo App ###
 This is a simple React application for managing your tasks. It allows you to:
 
 Add new tasks
