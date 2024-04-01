@@ -1,39 +1,43 @@
-### React Todo App ###
-This is a simple React application for managing your tasks. It allows you to:
+# React To-Do App
 
-Add new tasks
-Mark tasks as completed
-Filter tasks based on their completion status (All, Incomplete, Completed)
-Features
-Built with React for a smooth user experience.
-Utilizes Redux for state management.
-Includes animations with Framer Motion (optional, depending on implementation).
-Running the App Locally
-Prerequisites:
+This is a simple to-do app built with React.
 
-Node.js and npm (or yarn) installed on your system.
-Steps:
+## Features
 
-Clone the repository:
-git clone https://your-github-repo-url.git
-Navigate to the project directory:
-cd your-app-name
-Install dependencies:
-npm install
-(or yarn install)
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Filter tasks by status (all, completed, active)
 
-Start the development server:
-npm start
-(or yarn start)
+## Installation
 
-This will start the development server, usually accessible at http://localhost:3000 in your browser.
+To run this app locally, follow these steps:
 
-Additional Notes:
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/react-todo-app.git
 
-For code formatting and linting, you might find scripts defined in package.json using tools like ESLint or Prettier. Refer to the specific commands mentioned in the file if applicable.
-If the app uses Framer Motion for animations, you might need additional setup or configuration steps. Check the project's codebase for any related instructions.
-Contributing
-We welcome contributions to this project! Please see the CONTRIBUTING.md file for details on how to submit pull requests.
+2. Navigate to the project directory:
+   ```bash
+   cd react-todo-app
+3. Install dependencies using npm:
+   ```bash
+   npm install
+4. Once you've installed the dependencies, you can run the app locally:
+   ```bash
+   npm start
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This will start a development server and open the app in your default web browser. If it doesn't open automatically, you can navigate to http://localhost:3000 in your browser.
+
+### Contributing: ###
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Create a new branch with a descriptive name (git checkout -b my-new-feature).
+3. Make your changes and commit them (git commit -am 'Add some feature').
+4. Push your changes to your fork (git push origin my-new-feature).
+5. Submit a pull request on GitHub.
+   
+### License ###
+This project is licensed under the MIT License - see the LICENSE file for details.
+   
